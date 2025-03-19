@@ -1,0 +1,1 @@
+ C:\\Users\\samar\\Documents\\flutter\\movie\\.dart_tool\\flutter_build\\52125644bd6e2bb14d27f12b27a189c7\\native_assets.yaml: 
