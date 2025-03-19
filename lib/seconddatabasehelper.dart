@@ -1,5 +1,6 @@
+import 'package:movie/home.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:videoviwerplayer/home.dart';
+
 import 'package:path/path.dart';
 
 class DatabaseHelper2 {

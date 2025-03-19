@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:movie/home.dart';
+import 'package:movie/nav_screen.dart';
 import 'package:video_player/video_player.dart';
 import 'package:miniplayer/miniplayer.dart';
-import 'package:videoviwerplayer/home.dart';
-import 'package:videoviwerplayer/nav_screen.dart';
 
 class SearchTile extends StatelessWidget {
   final CustomVideo video;
