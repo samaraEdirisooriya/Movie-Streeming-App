@@ -6,11 +6,12 @@ import 'package:carousel_slider/carousel_slider.dart';
 
 import 'package:flutter/material.dart';
 import 'package:glassmorphism/glassmorphism.dart';
+import 'package:movie/constants.dart';
+import 'package:movie/home.dart';
+import 'package:movie/video_card.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:http/http.dart' as http;
-import 'package:videoviwerplayer/constants.dart';
-import 'package:videoviwerplayer/home.dart';
-import 'package:videoviwerplayer/video_card.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

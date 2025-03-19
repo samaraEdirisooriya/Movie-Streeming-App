@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:videoviwerplayer/test2.dart';
+import 'package:movie/test2.dart';
+
 class MyStatefulWidget extends StatefulWidget {
   const MyStatefulWidget({super.key});
 

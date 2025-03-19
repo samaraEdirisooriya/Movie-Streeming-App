@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:videoviwerplayer/databasehelper.dart';
-import 'package:videoviwerplayer/home.dart';
-import 'package:videoviwerplayer/video_card.dart';
+import 'package:movie/databasehelper.dart';
+import 'package:movie/home.dart';
+import 'package:movie/video_card.dart';
+
 
 class Setting extends StatefulWidget {
   const Setting({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:videoviwerplayer/dbhelper2.dart';
-import 'package:videoviwerplayer/home.dart';
+import 'package:movie/dbhelper2.dart';
+import 'package:movie/home.dart';
+import 'package:movie/video_card.dart';
 
-import 'package:videoviwerplayer/video_card.dart';
 
 
 class watchlatter extends StatefulWidget {

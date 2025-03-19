@@ -6,17 +6,16 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:glassmorphism/glassmorphism.dart';
 import 'package:http/http.dart';
 import 'package:miniplayer/miniplayer.dart';
+import 'package:movie/customvideoconttroller.dart';
+import 'package:movie/dbhelper2.dart';
+import 'package:movie/nav_screen.dart';
+import 'package:movie/nextplay.dart';
+import 'package:movie/playlist.dart';
 import 'package:video_player/video_player.dart';
-import 'package:videoviwerplayer/constants.dart';
-import 'package:videoviwerplayer/customvideoconttroller.dart';
-import 'package:videoviwerplayer/dbhelper2.dart';
-import 'package:videoviwerplayer/home.dart';
-import 'package:videoviwerplayer/nav_screen.dart';
+
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:http/http.dart' as http;
-import 'package:videoviwerplayer/nextplay.dart';
-import 'package:videoviwerplayer/playlist.dart';
-import 'package:videoviwerplayer/video_card.dart';
+
 
 final controller = ScrollController();
 
@@ -124,11 +123,7 @@ class _VideoPageState extends State<VideoPage> {
                                   optionsTranslation: OptionsTranslation(),
                                   additionalOptions: (context) {
                                     return <OptionItem>[
-                                      OptionItem(
-                                        onTap: () {},
-                                        iconData: Icons.abc,
-                                        title: 'option 1',
-                                      )
+                                      
                                     ];
                                   },
                                 ),

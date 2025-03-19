@@ -3,12 +3,13 @@ import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:movie/constants.dart';
+import 'package:movie/databasehelper.dart';
+import 'package:movie/dbhelper2.dart';
+import 'package:movie/home.dart';
+import 'package:movie/video_card.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:videoviwerplayer/constants.dart';
-import 'package:videoviwerplayer/databasehelper.dart';
-import 'package:videoviwerplayer/dbhelper2.dart';
-import 'package:videoviwerplayer/home.dart';
-import 'package:videoviwerplayer/video_card.dart';
+
 
 class HistoryPage extends StatefulWidget {
   const HistoryPage({super.key});
