@@ -2,12 +2,13 @@ import 'dart:convert';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
+import 'package:movie/home.dart';
+import 'package:movie/nav_screen.dart';
+import 'package:movie/video_card.dart';
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:videoviwerplayer/home.dart';
-import 'package:videoviwerplayer/nav_screen.dart';
-import 'package:videoviwerplayer/video_card.dart';
+
 
 class Mainplaylist extends StatefulWidget {
   const Mainplaylist({super.key});

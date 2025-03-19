@@ -5,16 +5,17 @@ import 'dart:ui';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
 import 'package:miniplayer/miniplayer.dart';
+import 'package:movie/constants.dart';
+import 'package:movie/home.dart';
+import 'package:movie/nav_screen.dart';
+import 'package:movie/video_card.dart';
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
 import 'package:glassmorphism/glassmorphism.dart';
 import 'package:segmented_button_slide/segmented_button_slide.dart';
-import 'package:videoviwerplayer/constants.dart';
+
 import 'package:shimmer/shimmer.dart';
-import 'package:videoviwerplayer/home.dart';
-import 'package:videoviwerplayer/nav_screen.dart';
-import 'package:videoviwerplayer/serchbarlisttile.dart';
-import 'package:videoviwerplayer/video_card.dart';
+
 
 class serchscreen extends StatefulWidget {
   const serchscreen({super.key});
